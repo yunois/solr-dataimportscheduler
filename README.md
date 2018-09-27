@@ -33,9 +33,10 @@ ZKPropertiesForLastWriter 功能：
 </pre>
 
 2、zk上指定core的dataimport.properties
-
+<pre>
 before_second:往前推迟的数量，单位秒
 last_index_time：最后更新时间，系统默认添加，每次系统自己记录
+</pre>
 
 3、在solr cloud的conf目录，添加增量导入配置
 
