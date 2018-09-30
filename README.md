@@ -97,3 +97,12 @@ initialDelay=1
 threadPoolCount=10
 
 </pre>
+
+
+4、web.xml
+
+<pre>
+<listener>
+        <listener-class>org.apache.solr.handler.dataimport.scheduler.ApplicationListener</listener-class>
+</listener
+</pre>
