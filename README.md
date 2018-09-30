@@ -102,7 +102,7 @@ threadPoolCount=10
 4、web.xml
 
 <pre>
-<listener>
-        <listener-class>org.apache.solr.handler.dataimport.scheduler.ApplicationListener</listener-class>
-</listener
+&lt;listener&gt;
+        &lt;listener-class>org.apache.solr.handler.dataimport.scheduler.ApplicationListener&lt;/listener-class&gt;
+&lt;/listener&gt;
 </pre>
