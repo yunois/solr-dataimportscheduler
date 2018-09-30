@@ -55,8 +55,8 @@ syncEnabled=1
 #  which cores to schedule
 #  in a multi-core environment you can decide which cores you want syncronized
 #  leave empty or comment it out if using single-core deployment
-#  修改成你所使用的core，我这里是我自定义的core：onlinepayorder
-syncCores=test01_shard1_replica2
+#  修改成你所使用的core
+syncCores=test01
 #  solr server name or IP address
 #  [defaults to localhost if empty]
 #  这个一般都是localhost不会变
